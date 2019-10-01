@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Essa META tag abaixo está trazendo o atributo UTF-8 para permitir que o browser identifique o padrão de código da página -->
+    <meta charset="UTF-8">
+    <meta lang="pt-BR">
+    <title>Como Configurar o GIT</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="icon" href="imagens/icone.ico" />
+
+
+</head>
+
+<body>
+    <header class="logo">
+        <a href="index.html"><img src="imagens/logo.jpg" alt="Logo Tipo Git e GitHub." /></a>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="controleversao.html">Controle de Versão</a></li>
+            <li><a href="git.html">O que é GIT</a></li>
+            <li><a href="github.html">O que é GITHUB</a></li>
+            <li><a href="gitlab.html">O que é GITLAB</a></li>
+            <li><a href="criarconta.html">Como Criar Conta</a></li>
+            <li><a href="linux.html">Instalação Linux</a></li>
+            <li><a href="windows.html">Instalação Windows</a></li>
+            <li><a class="selecionado" href="configuracao.html">Configurar o GIT</a></li>
+            <li><a href="comandos.html">Comandos do GIT</a></li>
+            <li><a href="mensagem.html">Mensagem Errada</a></li>
+            <li><a href="util.html">Pode Ser Útil</a></li>
+            <li><a href="referencias.html">Referências</a></li>
+        </ul>
+    </nav>
+    <article class="conteudo">
+        <h1>Como Configurar o GIT</h1>
+        <p>Depois de ter criado sua conta no GITHUB e instalado o GIT em sua máquina, vamos configurar o GIT para rodar no Windows, seguindo os passos à seguir:
+        </p>
+        <ol class="configuracao-win">
+            <li>Abra o GIT Bash, em seguida, utilize o seguinte comando para informar seu nome ao GIT.</li>
+            <img src="imagens/Configuracao1.jpg" alt="GIT Bash, terminal de comando." />
+            <li>Na sequência, utilize o seguinte comando para informar seu email ao GIT.</li>
+            <img src="imagens/Configuracao2.jpg" alt="GIT Bash, terminal de comando." />
+            <li>Para gerar a chave SSH, utilize o seguinte comando, substituíndo seu email e apertando sempre enter.</li>
+            <img src="imagens/Configuracao3.jpg" alt="GIT Bash, terminal de comando." />
+            <li>Para vê sua chave criada, use o seguinte comando:</li>
+            <img src="imagens/Configuracao4.jpg" alt="GIT Bash, terminal de comando." />
+            <li>Copie sua chave gerada, acesse sua conta do <a href="https://github.com/login">GIT</a>, em seguida selecione a opção <b>settings</b> em seu menu.
+                <p>Depois vá até a opção SSH and GPG keys > New SSH key</p>
+                <p>Dê um nome e cole sua chave salvando em Add SSH key</p>
+            </li>
+            <img src="imagens/Configuracao5.jpg" alt="GIT Bash, terminal de comando." />
+            <li>Utilize o seguinte comando para testar sua chave.</li>
+            <img src="imagens/Configuracao6.jpg" alt="GIT Bash, terminal de comando." />
+        </ol>
+
+    </article>
+    <!--    <aside class="imagem">-->
+    <!--        <img src="#" />-->
+    <!--    </aside>-->
+    <footer class="rodape">
+        <p><small>© Copyright - Todos os direitos reservados</small></p>
+        <p><small>Rua Conceição, 168 - Centro | CEP 18154-547 - São Roque/SP</small></p>
+        <p><small>(11) 4185-2525 / (11) 5584-5225</small></p>
+    </footer>
+</body>
+
+</html>

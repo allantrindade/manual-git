@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+/* Cor de fundo da página */
+html {
+    background-color: #48a2e0;
+}
+
+/* Cor de fundo do corpo da página */
+body {
+    width: 1350px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    background-color: whitesmoke;
+    font-size-adjust: 100%;
+}
+
+/* Cor de Fundo do Cabeçalho */
+.logo {
+    background-color: white;
+    width: 1350px;
+    height: 250px;
+}
+
+/* Posição do Logotipo */
+.logo img {
+    position: static;
+}
+
+
+/* Definindo uma cor de fundo 
+para o menu de navegação */
+.menu ul {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+    width: 220px;
+    background-color: #143243;
+}
+
+/* Alinhando e definindo uma cor de fundo 
+para os itens do menu de navegação */
+.menu ul li {
+    position: relative;
+    background-color: #143243;
+
+}
+
+/* Definindo fonte, tamanho, cor e removendo 
+decoração dos links do menu de navegação*/
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid #48a2e0;
+    border-right: 1px solid #48a2e0;
+}
+
+.menu > ul .selecionado {
+    color: #143243;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #48a2e0;
+    border-right: 1px solid #48a2e0;
+}
+
+/* Mudança ao passar o mouse sobre o menu de navegação*/
+.menu ul li a:hover {
+    color: #143243;
+    background-color: whitesmoke;
+    border-bottom: 1px solid cadetblue;
+    border-right: 1px solid cadetblue;
+}
+
+
+/* Aqui fica o box do texto principal*/
+.conteudo {
+    float: right;
+    width: 1130px;
+    height: auto;
+}
+
+/* Formatação do Título do texto prncipal */
+.conteudo h1 {
+    text-align: center;
+    color: #143243;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a formatação e posição do texto principal */
+.conteudo p {
+    margin: 0;
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* Aqui fica a formatação e posição do unordered list pagina inicial */
+.conteudo ul {
+    margin: 0;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* Aqui fica a posição dos itens do menu ordenado*/
+.conteudo li {
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a formatação e posição das imagens do ordered list */
+.conteudo img {
+    width: 600px;
+    height: 281px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 2px 2px 2px 2px #143243;
+}
+
+/* Aqui fica a formatação e posição do menu ordenado pagina criar conta */
+.conteudo > .criar-conta {
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* Aqui fica a posição dos itens do menu ordenado*/
+.conteudo > .criar-conta li {
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a formatação e posição das imagens do ordered list */
+.conteudo > .criar-conta img {
+    width: 600px;
+    height: 281px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #143243;
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a formatação e posição do menu 
+ordenado da página de instalacao do Windows.* */
+.conteudo > .instalacao-win {
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* Aqui fica a posição dos itens do menu 
+ordenado da página de instalacao do Windows.*/
+.conteudo > .instalacao-win li {
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a posição dos paragrafos do menu 
+ordenado da página de instalacao do Windows.*/
+.conteudo > .instalacao-win p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aqui fica a formatação e posição das imagens do 
+menu ordenado da página de instalacao no Windows.*/
+.conteudo > .instalacao-win img {
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 2px 2px 2px 2px #143243;
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a formatação e posição do menu 
+ordenado da página de configuração do GIT no Windows.* */
+.conteudo > .configuracao-win {
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* Aqui fica a posição dos itens do menu 
+ordenado da página de configração do GIT no Windows.*/
+.conteudo > .configuracao-win li {
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a posição dos paragrafos do menu 
+ordenado da página de configuração do Windows.*/
+.conteudo > .configuracao-win p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Aqui fica a formatação e posição das imagens do 
+menu ordenado da página de configuração do GIT no Windows.*/
+.conteudo > .configuracao-win img {
+    width: 585px;
+    height: 209px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 2px 2px 2px 2px #143243;
+    margin-bottom: 10px;
+}
+
+/* Tamanho do rodapé e cor de fundo */
+.rodape {
+    clear: both;
+    background-color: #143243;
+    width: 1350px;
+    height: 100px;
+}
+
+/* Formatação  e posição do texto do rodapé */
+.rodape p {
+    margin: 0px 0px 0px 0px;
+    padding: 8px;
+    text-align: center;
+    font-family: serif;
+    color: white;
+}

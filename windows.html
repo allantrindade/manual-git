@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- Essa META tag abaixo está trazendo o atributo UTF-8 para permitir que o browser identifique o padrão de código da página -->
+    <meta charset="UTF-8">
+    <meta lang="pt-BR">
+    <title>Instalação no Windows</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="icon" href="imagens/icone.ico" />
+
+
+</head>
+
+<body>
+    <header class="logo">
+        <a href="index.html"><img src="imagens/logo.jpg" alt="Logo Tipo Git e GitHub." /></a>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="controleversao.html">Controle de Versão</a></li>
+            <li><a href="git.html">O que é GIT</a></li>
+            <li><a href="github.html">O que é GITHUB</a></li>
+            <li><a href="gitlab.html">O que é GITLAB</a></li>
+            <li><a href="criarconta.html">Como Criar Conta</a></li>
+            <li><a href="linux.html">Instalação Linux</a></li>
+            <li><a class="selecionado" href="windows.html">Instalação Windows</a></li>
+            <li><a href="configuracao.html">Configurar o GIT</a></li>
+            <li><a href="comandos.html">Comandos do GIT</a></li>
+            <li><a href="mensagem.html">Mensagem Errada</a></li>
+            <li><a href="util.html">Pode Ser Útil</a></li>
+            <li><a href="referencias.html">Referências</a></li>
+        </ul>
+    </nav>
+    <article class="conteudo">
+        <h1>Instalação no Windows</h1>
+        <p>
+            Para instalar o GIT no Windows é muito simples basta seguir os passos à baixo:
+        </p>
+        <ol class="instalacao-win">
+            <li>Acesse <a href="https://git-for-windows.github.io/">https://git-for-windows.github.io/</a> e faça download do GIT para Windows.</li>
+            <li>Inicie a instalação, seguindo as instruções na tela, clicando em <b>Next</b>.</li>
+            <img src="imagens/Windows2.jpg" alt="Assistente de instalação do GIT no Windows." />
+            <li>Selecione qual editor padrão deseja utilizar no GIT.</li>
+            <img src="imagens/Windows3.jpg" alt="Selecione o editor a ser usado no assistente de instalação." />
+            <li>Selecione onde os comandos do GIT serão usados.<p>(Recomendado a 2ª opção, onde utliza-se linha de comando e softwares de terceiros).</p>
+            </li>
+            <img src="imagens/Windows4.jpg" alt="Selecione onde será usado os comandos GIT." />
+            <li>Escolha a biblioteca de validação de chaves que achar apropriada e clique em <b>Next.</b></li>
+            <img src="imagens/Windows5.jpg" alt="Selecione a biblioteca de validação de chaves" />
+            <li>Escolha como o GIT deverá tratar as quebras de linhas de arquivos de texto.
+                <p>Windows utiliza <b>CRLF</b> (Carriage Return Line Feed) e Linux utiliza <b>LF</b> (Line Feed)</p>
+                <ul>
+                    <li>Converter LF para CRLF ao baixar arquivos e CRLF para LF ao comitar.</li>
+                    <li>Baixar como é (não converte nada), mas comitar convertendo CRLF para LF.</li>
+                    <li>Não converter nada, baixar como é e comitar como estiver.</li>
+                </ul>
+            </li>
+            <img src="imagens/Windows6.jpg" alt="Selecione como o GIT deverá tratar o final dos arquivos de texto." />
+            <li>Escolha qual o emudalor de terminal deseja utilizar no GIT.</li>
+            <img src="imagens/Windows7.jpg" alt="Selecione qual emulador de terminal deseja utilizar no GIT." />
+        </ol>
+
+    </article>
+    <!--    <aside class="imagem">-->
+    <!--        <img src="#" />-->
+    <!--    </aside>-->
+    <footer class="rodape">
+        <p><small>© Copyright - Todos os direitos reservados</small></p>
+        <p><small>Rua Conceição, 168 - Centro | CEP 18154-547 - São Roque/SP</small></p>
+        <p><small>(11) 4185-2525 / (11) 5584-5225</small></p>
+    </footer>
+</body>
+
+</html>
