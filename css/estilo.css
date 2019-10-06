@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* Cor de fundo da página */
 html {
@@ -218,6 +218,64 @@ menu ordenado da página de configuração do GIT no Windows.*/
     box-shadow: 2px 2px 2px 2px #143243;
     margin-bottom: 10px;
 }
+
+/* Aqui fica a formatação e posição do menu não
+ordenado da página de edição de mensagem do GIT.*/
+.conteudo > .mensagem {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-family: serif;
+    font-size: 20px;
+    color: dimgray;
+}
+
+/* Aqui fica a formatação e posição das imagens do 
+menu não ordenado da página de edição de mensagem do GIT.*/
+.conteudo > .mensagem img {
+    width: 587px;
+    height: 94px;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: 2px 2px 2px 2px #143243;
+    margin-bottom: 10px;
+}
+
+/* Aqui fica a formatação e posição da tabela de comandos do GIT*/
+.conteudo > .comandos {
+	width: 990px;
+	margin: 20px 70px 30px 70px;
+	height: auto;
+	border: 2px solid #143243;
+	text-align: left;
+}
+
+/* Aqui fica a formatação e posição do cabeçalho da tabela de comandos do GIT*/
+.conteudo > .comandos th {
+	font-family: sans-serif;
+	font-size: 28px;
+	border: 2px solid #143243;
+	color: #143243;
+}
+
+/* Aqui fica a formatação e posição das linhas da tabela de comandos do GIT*/
+.conteudo > .comandos td {
+	padding: 5px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border: 1.5px solid #143243;
+	color: dimgray;
+}
+
+/*Aqui é definido a cor do cabeçalho da tabela*/
+.conteudo > .comandos thead {
+	background-color: #48a2e0;
+	}
+
+/*Aqui é definido a cor do corpo da tabela*/
+.conteudo > .comandos tbody {
+	background-color: whitesmoke;
+	}
 
 /* Tamanho do rodapé e cor de fundo */
 .rodape {

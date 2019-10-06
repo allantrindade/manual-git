@@ -35,18 +35,169 @@
     </nav>
     <article class="conteudo">
         <h1>Principais Comandos do GIT</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus imperdiet orci eget dapibus. Duis posuere suscipit lorem ut gravida. Nulla facilisi. Pellentesque porttitor ultrices laoreet. Duis auctor iaculis erat a porta. Curabitur quis dui sed orci ultrices consectetur. In suscipit hendrerit nibh, eget hendrerit quam egestas molestie.
-        </p>
-        <p>
-            Ut ut tempor sapien, sit amet vestibulum mauris. Aliquam arcu mi, vehicula vel placerat at, vestibulum id dolor. Phasellus molestie odio tempus, congue magna vitae, mattis lorem. Suspendisse potenti. Aliquam non ullamcorper turpis. Nulla vitae sodales odio, vehicula varius odio. Morbi varius sodales libero, dapibus facilisis quam efficitur at. Mauris finibus eu ante id finibus. Donec ex libero, rhoncus sed ex in, convallis auctor sem. Phasellus sit amet neque porttitor, fermentum mi eu, vestibulum purus. Donec sed condimentum elit, eget ultricies leo. Pellentesque condimentum porttitor eros, in accumsan quam eleifend id.
-        </p>
 
-
+        <table class="comandos">
+		<thead>
+<tr>
+<th>Comando</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>git help</td>
+<td>Menu de ajuda</td>
+</tr>
+<tr>
+<td>git config --global user.name "SEU_NOME"</td>
+<td>Setar usuário</td>
+</tr>
+<tr>
+<td>git config --global user.email "SEU_EMAIL"</td>
+<td>Setar email</td>
+</tr>
+<tr>
+<td>git config --global core.editor "SEU_EDITOR"</td>
+<td>Setar editor</td>
+</tr>
+<tr>
+<td>git config --list</td>
+<td>Listar configurações</td>
+</tr>
+<tr>
+<td>git init</td>
+<td>Criar novo repositório</td>
+</tr>
+<td>git status</td>
+<td>Verificar estado dos arquivos/diretórios</td>
+</tr>
+<tr>
+<td>git add meu_arquivo.txt</td>
+<td>Adicionar um arquivo em específico</td>
+</tr>
+<tr>
+<td>git add meu_diretorio</td>
+<td>Adicionar um diretório em específico</td>
+</tr>
+<tr>
+<td>git add .</td>
+<td>Adicionar todos os arquivos/diretórios</td>
+</tr>
+<tr>
+<td>git commit meu_arquivo.txt</td>
+<td>Comitar um arquivo</td>
+</tr>
+<tr>
+<td>git commit meuarquivo.txt -m "MENSAGEM"</td>
+<td>Comitar informando mensagem</td>
+</tr>
+<td>git rm meu_arquivo.txt</td>
+<td>Remover arquivo</td>
+</tr>
+<tr>
+<td>git rm -r diretorio</td>
+<td>Remover diretório</td>
+</tr>
+<tr>
+<td>git log</td>
+<td>Exibir histórico</td>
+</tr>
+<tr>
+<td>git log --stat</td>
+<td>Exibir resumo do histórico</td>
+</tr>
+<tr>
+<td>git log --pretty=oneline</td>
+<td>Exibir informações resumidas em uma linha</td>
+</tr>
+<tr>
+<td>git log --meu_arquivo.txt</td>
+<td>Exibir histório de um arquivo específico</td>
+</tr>
+<td>git log --author=usuario</td>
+<td>Exibir histório de um determinado autor</td>
+</tr>
+<tr>
+<td>git checkout --meu_arquivo.txt</td>
+<td>Desfazer alteração local (working directory)</td>
+</tr>
+<tr>
+<td>git reset HEAD meu_arquivo.txt</td>
+<td>Desfazer alteração local (staging area)</td>
+</tr>
+<tr>
+<td>git remote</td>
+<td>Exibir os repositórios remotos</td>
+</tr>
+<tr>
+<td>git remote add "REPOSITORIO_GITHUB"</td>
+<td>Vincular repositório local com um repositório remoto</td>
+</tr>
+<tr>
+<td>git remote show origin</td>
+<td>Exibir informações dos repositórios remotos</td>
+</tr>
+<tr>
+<td>git remote rename origin "REPOSITORIO"</td>
+<td>Renomear um repositório remoto</td>
+</tr>
+<tr>
+<td>git remote rm "REPOSITORIO"</td>
+<td>Desvincular um repositório remoto</td>
+</tr>
+<tr>
+<td>git push -u origin master</td>
+<td>Enviar arquivos/diretórios para o repositório remoto</td>
+</tr>
+<tr>
+<td>git pull</td>
+<td>Atualizar repositório local com o repositório remoto</td>
+</tr>
+<td>git fetch</td>
+<td>Buscar as alterações, mas não aplica-las no branch atual</td>
+</tr>
+<tr>
+<td>git tag "TAG"</td>
+<td>Criar uma tag</td>
+</tr>
+<tr>
+<td>git branch "BRANCH"</td>
+<td>Criar um novo branch</td>
+</tr>
+<tr>
+<td>git checkout "BRANCH"</td>
+<td>Trocar para um branch existente</td>
+</tr>
+<tr>
+<td>git checkout master</td>
+<td>Voltar para o branch principal (master)</td>
+</tr>
+<td>git branch -d "BRANCH"</td>
+<td>Apagar um branch</td>
+</tr>
+<tr>
+<td>git branch</td>
+<td>Listar branches</td>
+</tr>
+<tr>
+<td>git push origin "BRANCH"</td>
+<td>Criar branch no repositório remoto</td>
+</tr>
+<tr>
+<td>git push origin:"BRANCH"</td>
+<td>Apagar branch remoto</td>
+</tr>
+<tr>
+<td>git commit --amend -m "MENSAGEM""</td>
+<td>Alterar mensagem do último commit</td>
+</tr>
+<tr>
+<td>git rebase -i HEAD~3</td>
+<td>Alterar 3 últimos commits</td>
+</tr>
+</tbody>
+</table>
     </article>
-    <!--    <aside class="imagem">-->
-    <!--        <img src="#" />-->
-    <!--    </aside>-->
     <footer class="rodape">
         <p><small>© Copyright - Todos os direitos reservados</small></p>
         <p><small>Rua Conceição, 168 - Centro | CEP 18154-547 - São Roque/SP</small></p>
