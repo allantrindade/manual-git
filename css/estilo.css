@@ -284,11 +284,12 @@ com o link para contribuir com o projeto */
     font-size: 25px;
     margin-top: 70px;
     text-align: center;
-} 
+}
 
+/* Formatação do Link de contribuição para o projeto */
 .conteudo > .linkm a {
     color: #143243;
-    
+
 }
 
 /* Tamanho do rodapé e cor de fundo */
